@@ -3,15 +3,24 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "dev": "npx tsx prototype/server.js",
     "prepare": "husky",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",
+    "expo": "^57.0.24",
+    "expo-haptics": "^57.0.3",
+    "expo-router": "^57.0.22",
+    "expo-status-bar": "^57.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
     "prettier": "^3.5.3",
+    "react-native": "^0.87.1",
+    "react-native-safe-area-context": "^5.10.0",
+    "react-native-screens": "^4.28.0",
+    "tsx": "^4.19.3",
     "typescript": "^5.8.2",
     "vitest": "^3.0.7"
   }
